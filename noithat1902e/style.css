@@ -1,0 +1,385 @@
+body{
+    width:auto;
+    height:auto;
+}
+/*
+Clearfix
+*/
+.clearfix{
+    clear:both;
+}
+.clearfix::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+/*
+Header
+*/
+.header{
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-height: 170px;
+}
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.main-menu ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+.main-menu ul li a{
+    font-size: 20px;
+    color: #9a9a9a;
+    text-decoration: none;
+}
+.main-menu ul li a:hover {
+    color: #f48146;
+}
+.main-menu ul li i {
+    display: inline-block;
+    color: #9a9a9a;
+    font-size: 12px;
+}
+
+/*
+Banner
+*/
+.banner{
+    height: 936px;
+    width: 100%;
+    background:url("banner.jpg") top center;
+    display: table;
+    margin-top: -170px;
+}
+.intro1 .row .col-sm-6 .relative {
+
+    position: relative;
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+.intro1 .row .col-sm-6 .relative .absolute{
+
+    position: absolute;
+    top:200px;
+    right: 100px;
+    bottom: 90px;
+}
+.intro1 .row .col-sm-6 h4{
+    margin-right: 120px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px ;
+}
+.intro1 .row .col-sm-6 .main-menu .main-menu-col-sm-6 li a{
+    margin-right: 120px;
+    margin-left: 10px;
+    color: red;
+    padding: 10px;
+}
+
+.intro1 .row .col-sm-6 p{
+    text-align: left;
+    margin-left: 57px;
+}
+.intro1 .row .col-sm-6 button{
+    transition: top .3s;
+    line-height: 30px;
+    border-radius: 32px;
+    background: orangered;
+    margin-left: 57px;
+
+}
+
+.intro2 h3{
+    padding-left: 50px;
+    margin: 70px;
+}
+.banner h1{
+    font-size: 83px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.banner h1 span{
+    color:#f66c27;
+}
+/*
+Footer
+*/
+footer{
+    background: linear-gradient(to right,#f48146 50%, #ffffff 50%);
+}
+footer .contact-form{
+    box-sizing: border-box;
+    background: #f48146;
+    height: 650px;
+}
+footer .content-form{
+    margin-top: 138px;
+    margin-right: 100px;
+    background: #FFF;
+    padding: 50px;
+}
+footer .content-form textarea, input{
+    border:none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    color: #777777;
+    font-size: 15px;
+}
+footer .contact-form-row.first-row input {
+    width: 40%;
+}
+footer.contact-form-row.first-row:after {
+    content: '';
+    clear: both;
+}
+footer .contact-form-row.first-row input[name='email'] {
+    float:right;
+}
+footer .content-form textarea:focus, input:focus{
+    outline: none;
+}
+footer .contact-form-row {
+    margin-bottom: 20px;
+}
+footer .submit-row {
+    text-align: center;
+}
+footer .content-form input[type="submit"] {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 6px 20px;
+    border-radius: 32px;
+}
+footer .contact-info {
+    box-sizing: border-box;
+    padding-left: 50px;
+    height: 650px;
+}
+footer .contact-info h3 {
+    margin-top: 120px;
+    font-size: 34px;
+}
+footer .line-contact-info {
+    padding: 5px 0;
+}
+footer .line-contact-info h4 {
+    font-size: 20px;
+    color: #333333;
+}
+footer .line-contact-info p {
+    font-size: 15px;
+    color: #333333;
+    max-width: 300px;
+}
+footer .line-contact-info p span{
+    color: #f66c27;
+    background: #FFFFFF;
+}
+footer .social-icon i{
+    width: 40px;
+    height:40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #bbbbbb;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+footer .social-icon i:hover{
+    background: #f48146;
+}
+/*
+ * Our projects
+ */
+.our-project {
+    padding: 50px 0;
+}
+
+.our-project h4 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.our-project .project-col img {
+    max-width: 100%;
+    padding: 5px;
+    border: 1px solid #eeeeee;
+}
+
+.our-project .project-col-1 img{
+    height: 300px;
+    width: auto;
+}
+
+.our-project .project-col-1 .project-item {
+    margin-bottom: 90px;
+}
+
+.our-project.project-col-1 p {
+    margin-bottom: 35px;
+}
+
+.our-project .project-col-1 a {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+
+.our-project .project-col-2 img{
+    height: 650px;
+    width: auto;
+}
+
+.our-project .project-col-3 img{
+    height: 300px;
+    width: auto;
+    margin-bottom: 48px;
+}
+.project-intro{
+    margin-left: 5px;
+}
+/*
+ * CSS Intro
+ */
+.intro3 {
+    padding: 30px 0;
+}
+
+.intro3 h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro3 p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.container .project-col-4 h6{
+    text-align: center;
+}
+.container .project-col-4 p{
+    text-align: center;
+}
+.container .project-col-4{
+    background: #eeeeee;
+    width: auto;
+
+}
+.container .project-col-4 img{
+    margin-left: 100px;
+}
+
+.container .project-col-6 h6{
+    text-align: center;
+}
+.container .project-col-6 p{
+    text-align: center;
+}
+.container .project-col-6{
+    background: #eeeeee;
+    width: auto;
+
+}
+.container .project-col-6 img{
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.container .project-col-5 h6{
+    text-align: center;
+}
+.container .project-col-5 p{
+    text-align: center;
+}
+.container .project-col-5{
+    background: floralwhite;
+    width: auto;
+
+}
+.container .project-col-5 img{
+    margin-left: 120px;
+    background: floralwhite;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#navbar .form-group input{
+    width: 250px;
+    border-radius: 32px;
+    background: #eeeeee;
+
+}
+#navbar .form-group button{
+    border-radius: 32px;
+    color: #f48146;
+
+}
+.intro4 {
+    width: 1350px;
+    height: 300px;
+    background: url("ảnhnen.jpg" )  center;
+    display: table;
+
+}
+.intro4 a{
+
+    border-radius: 70px;
+    background-color: #eeeeee;
+    float:left;
+    display: block;
+    margin-right: 50px;
+    margin-left: 450px;
+    margin-top: 70px;
+    padding-left: 3em;
+    width: 330px;
+    height: 40px;
+
+}
+.intro4 .contact-form-row input{
+    border-radius: 32px;
+    margin-top: 70px;
+    background: orangered;
+    margin-right: 200px;
+    width: 100px;
+    height: 40px;
+}
+
+.intro4 h5 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+
+
+}
+
+.intro5 h2,p{
+    text-align: center;
+}
+.intro5 img{
+    margin-left: 600px;
+}
+.intro5 h6{
+    text-align: center;
+    color:orange;
+}
