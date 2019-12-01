@@ -99,7 +99,7 @@ Banner
 
 .intro2 h3{
     padding-left: 50px;
-    margin: 70px;
+    margin: 50px;
 }
 .banner h1{
     font-size: 83px;
@@ -283,7 +283,7 @@ footer .social-icon i:hover{
 
 }
 .container .project-col-4 img{
-    margin-left: 100px;
+    margin-left:130px;
 }
 
 .container .project-col-6 h6{
@@ -298,9 +298,9 @@ footer .social-icon i:hover{
 
 }
 .container .project-col-6 img{
-    margin-left: 100px;
-    margin-bottom: 40px;
+    margin-left: 130px;
     margin-top: 20px;
+    margin-bottom: 25px;
 }
 .container .project-col-5 h6{
     text-align: center;
@@ -314,7 +314,7 @@ footer .social-icon i:hover{
 
 }
 .container .project-col-5 img{
-    margin-left: 120px;
+    margin-left: 150px;
     background: floralwhite;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -346,9 +346,10 @@ footer .social-icon i:hover{
     margin-right: 50px;
     margin-left: 450px;
     margin-top: 70px;
-    padding-left: 3em;
+    padding-left: 5em;
     width: 330px;
     height: 40px;
+    line-height: 40px;
 
 }
 .intro4 .contact-form-row input{
